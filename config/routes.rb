@@ -3,7 +3,5 @@ Rails.application.routes.draw do
   # configration of root
   root 'homes#top'
 
-  get 'books/index'
-  get 'books/show'
-  get 'books/edit'
+  resources :books
 end
