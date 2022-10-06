@@ -38,3 +38,7 @@ a:hover {
   color: #fff;
   background-color: #000;
 }
+
+#success-message {
+  color: green;
+}
